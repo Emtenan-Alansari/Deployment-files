@@ -8,10 +8,8 @@ from PIL import Image  # to deal with images (PIL: Python imaging library)
 
 # Title/Text
 st.title("Welcome to Car Price Prediction Project ")
-st.text("This is some test.")
 
 # Markdown
-st.markdown("Streamlit is **_really_ cool** :+1:")
 st.markdown("## Emtenan Yasir Alansari")
 st.markdown("### SDA1007-Emtenan")
 
@@ -19,12 +17,6 @@ st.markdown("### SDA1007-Emtenan")
 st.header('CLARUSWAY with SDA')
 st.subheader('Group 1')
 
-# Success/Info/Error
-st.success('This is a success message!')
-st.info('This is a purely informational message')
-st.error("This is an error.")
-st.warning("This is a warning message!")
-st.exception("NameError('name there is not defined')")
 
 
 # Dataframe
